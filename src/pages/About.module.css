@@ -1,0 +1,513 @@
+.projects {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--subheading-size);
+  letter-spacing: -0.02em;
+}
+.movieFinderWebsite {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.descriptionengineeredAWebsit,
+.movieFinderWebsiteContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.movieFinderWebsiteContainer {
+  font-weight: 500;
+  white-space: nowrap;
+}
+.descriptionengineeredAWebsit {
+  font-size: var(--small-text-size);
+  color: var(--color-darkslategray-100);
+  display: -webkit-inline-box;
+  align-items: center;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.copy,
+.copy1 {
+  width: 834px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copy1 {
+  height: 102px;
+}
+.ledTheDevelopment1,
+.visitGithub {
+  position: relative;
+  line-height: 150%;
+}
+.ledTheDevelopment1 {
+  align-self: stretch;
+  font-size: var(--small-text-size);
+  color: var(--color-darkslategray-100);
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.visitGithub {
+  font-weight: 500;
+}
+.button {
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-5xl);
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+}
+.cardSmall {
+  position: absolute;
+  top: 686px;
+  left: 555px;
+  width: 834px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.illustrations,
+.services {
+  align-self: stretch;
+  position: relative;
+}
+.services {
+  line-height: 110%;
+  font-weight: 600;
+}
+.illustrations {
+  line-height: 150%;
+}
+.logo {
+  margin: 0;
+}
+.logoCharacterContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.paragraphWithIcon,
+.paragraphWithIcon1,
+.paragraphWithIcon2 {
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--spacing-xs);
+}
+.paragraphWithIcon1,
+.paragraphWithIcon2 {
+  width: 216px;
+}
+.paragraphWithIcon2 {
+  width: 299px;
+}
+.paragraphWithIconParent,
+.primaryButton {
+  height: 147px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--subheading-size);
+}
+.primaryButton {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+}
+.paragraphWithHeadingAndSub {
+  position: absolute;
+  top: 401px;
+  left: 548px;
+  width: 880px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px;
+  box-sizing: border-box;
+  font-size: var(--heading-size);
+}
+.python1 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.python {
+  width: 69px;
+  display: flex;
+  flex-direction: row;
+  color: #252424;
+}
+.python,
+.python2,
+.python4 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgray);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.python2 {
+  width: 62px;
+  display: flex;
+  flex-direction: row;
+  color: #373232;
+}
+.python4 {
+  width: 86px;
+}
+.python10,
+.python12,
+.python4,
+.tabList {
+  display: flex;
+  flex-direction: row;
+}
+.tabList {
+  position: absolute;
+  top: 53px;
+  left: 2px;
+  width: 438px;
+  height: 58.5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.python10,
+.python12 {
+  flex: 1;
+}
+.python10 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgray);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+  color: var(--color-darkslategray-200);
+}
+.python12 {
+  color: var(--color-gray-300);
+}
+.python12,
+.python14,
+.python16 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgray);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.python14 {
+  width: 55px;
+  display: flex;
+  flex-direction: row;
+  color: #313030;
+}
+.python16 {
+  width: 103px;
+}
+.python16,
+.python18,
+.tabList1 {
+  display: flex;
+  flex-direction: row;
+}
+.python18 {
+  width: 54px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgray);
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.tabList1 {
+  position: absolute;
+  top: 111.5px;
+  left: 2px;
+  background-color: var(--color-gray-100);
+  width: 438px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.python20 {
+  width: 89px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgray);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.python20,
+.python22,
+.tabList2 {
+  display: flex;
+  flex-direction: row;
+}
+.python22 {
+  width: 94px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightgray);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+  color: var(--color-gray-300);
+}
+.tabList2 {
+  top: 170px;
+  background-color: var(--color-gray-100);
+  width: 384px;
+  height: 56px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--color-darkslategray-200);
+}
+.skills,
+.tabList2,
+.tabListParent {
+  position: absolute;
+  left: 0;
+}
+.skills {
+  top: 0;
+  font-size: var(--subheading-size);
+  letter-spacing: -0.02em;
+  display: inline-block;
+  color: var(--color-black);
+  width: 440px;
+  height: 29px;
+}
+.tabListParent {
+  top: 359px;
+  width: 442px;
+  height: 226px;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-300);
+}
+.sumanthAkshali {
+  top: 0;
+  font-size: 48px;
+  width: 440px;
+}
+.bengaluruIndia,
+.sumanthAkshali,
+.sumanthAppugithubioMail {
+  position: absolute;
+  left: 0;
+  letter-spacing: -0.02em;
+  display: inline-block;
+}
+.bengaluruIndia {
+  top: 82px;
+  width: 418px;
+  height: 31px;
+}
+.sumanthAppugithubioMail {
+  top: 110px;
+  width: 440px;
+}
+.property1defaultChild {
+  position: absolute;
+  top: 136.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 439px;
+  height: 1px;
+}
+.passionateAboutStaying {
+  position: absolute;
+  top: 147px;
+  left: -1px;
+  font-size: var(--body-text-size);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  width: 439px;
+  height: 237px;
+}
+.secondaryButton {
+  position: absolute;
+  top: 779px;
+  left: 297px;
+  border-radius: var(--br-5xs);
+  background-color: #eee;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  font-size: var(--small-text-size);
+}
+.headline,
+.property1default {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 440px;
+  height: 819px;
+}
+.headline {
+  top: 71px;
+  left: 47px;
+  border-radius: 5px;
+  border: 1px dashed #9747ff;
+  box-sizing: border-box;
+  width: 480px;
+  height: 889px;
+  overflow: hidden;
+  font-size: var(--font-size-mini);
+}
+.associateCloudEngineerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+}
+.associateCloudEngineerGoogl,
+.blockchainAndItsApplication {
+  position: absolute;
+  top: 745px;
+  left: 69px;
+  width: 427px;
+  height: 105px;
+  font-size: var(--font-size-sm);
+}
+.blockchainAndItsApplication {
+  top: 724px;
+  width: 441px;
+  height: 21px;
+}
+.certifications {
+  position: absolute;
+  top: 682px;
+  left: 71px;
+  width: 168px;
+  height: 30px;
+}
+.button1 {
+  width: 93px;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: #e1dfdf;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--small-text-size);
+  color: #0a0909;
+}
+.headerNavigation,
+.items {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: flex-end;
+}
+.items {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-m);
+}
+.headerNavigation {
+  position: absolute;
+  top: 56px;
+  left: 716px;
+  width: 596px;
+  height: 129px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 28px 80px;
+  box-sizing: border-box;
+}
+.education {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.bachelorOfEngineeringContainer {
+  position: absolute;
+  height: 300%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+}
+.bachelorOfEngineeringInInf {
+  width: 736px;
+  position: relative;
+  height: 62px;
+  font-size: var(--font-size-mini);
+}
+.frame {
+  position: absolute;
+  top: 238px;
+  left: 555px;
+  width: 826px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--spacing-s);
+  font-size: var(--subheading-size);
+}
+.about {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1285px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
